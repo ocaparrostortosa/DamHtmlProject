@@ -1,0 +1,16 @@
+myFunction2([	
+	{"grupo":"Grupo 1", "nombre": "Franciso José","apellido": "Barranco"},
+	{"grupo":"Grupo 1","nombre": "Oscar","apellido": "Caparrós"},
+	{"grupo":"Grupo 1","nombre": "Franciso Javier","apellido": "Collado"},
+	{"grupo":"Grupo 1","nombre": "Fernando Manuel","apellido": "Cuadro"},
+	{"grupo":"Grupo 1","nombre": "Julio","apellido": "Durante"},
+	
+
+	{"grupo":"Grupo 2","nombre": "Jesús","apellido": "Escabias"},
+	{"grupo":"Grupo 2","nombre": "Andrés","apellido": "Fernández"},
+	{"grupo":"Grupo 2","nombre": "Carlos","apellido": "Haupter"},
+	{"grupo":"Grupo 2","nombre": "Juan Isaac","apellido": "Huertas"},
+	{"grupo":"Grupo 2","nombre": "Jesús","apellido": "López"}
+	
+	
+])

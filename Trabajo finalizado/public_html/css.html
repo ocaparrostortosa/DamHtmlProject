@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	
+<head>
+
+    
+    <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tutorial básico de CSS</title>
+
+    <!-- Icono titulo -->
+    <link type="image/x-icon" href="img/css.png" rel="icon" />
+    <link type="image/x-icon" href="img/css.png" rel="shortcut icon" /> 
+
+    <!-- CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tema CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Fuentes personalizadas -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom affix-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./index.html#page-top">Grupo 1 HTML</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#">Índice CSS</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://grupounohtml.esy.es/index.html#portfolio">Página principal</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#sobreNosotros">Sobre nosotros</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/contacto.html">Contacta con nosotros</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- Header -->
+    <header  style="color: white; background: url(/img/tri.jpg); text-shadow: -2px -2px 8px #000; max-width: 100%; max-height: 100%;" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+
+                    <div class="intro-text">
+                        <span class="name">Tutorial básico de CSS</span>
+                        <hr class="star-light">
+                        <span class="skills"><strong>I.E.S. Virgen del Carmen</strong>
+                        <p> (Desarrollo de aplicaciones multiplataforma)</p></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio2">
+    <div class="container">
+     
+     <article class="col-md-8" >
+     <div class="row">
+     <div class="col-lg-8 text-center">          
+	 <h1>ÍNDICE</h1>
+      
+      <hr class="star-primary">
+     </div>   
+    </div>
+
+      <ol>
+                <h3><li><a href="#QueEsElCSS" rel="internal"> ¿Qué es el CSS? </a></h3></li>
+		<h3><li><a href="#ParaQueSirveElCSS" rel="internal" >¿Para qué sirve el CSS?</a></h3></li>
+		<h3><li><a href="#SixtaxisReglas" rel="internal">Sintaxis y Reglas básicas del CSS</a></h3></li>
+		    <ul>
+		    <h4><li><a href="#Sel" rel="internal"> Selectores </a></h4></li>
+		    <h4><li><a href="#Dec" rel="internal"> Declaraciones </a></h4></li>
+		    <h4><li><a href="#Agrup" rel="internal"> Agrupamiento </a></h4></li>
+		    <h4><li><a href="#Her" rel="internal"> Herencia </a></h4></li>
+	        <h4><li><a href="#Com" rel="internal"> Comentarios </a></h4></li>
+			  </ul> 
+		<h3><li><a href="#SCYSE" rel="internal">Seudo-Clases y Seudo-Elementos</a></h3></li>
+	        <h3><li><a href="#OrdenCascada" rel="internal">Orden de cascada</a></h3></li>
+	        <h3><li><a href="#Videos" rel="internal">Curso de CSS (Videos)</a></h3></li>
+ </ol>
+    
+    
+     </article>
+  
+
+   <div class="container">
+   <aside class="col-md-4">
+                       <br>
+                       <br>
+                       <br>
+                       <br>
+                       <br>
+			<div class="well">
+				<h3><u>ENLACES</u></h3>
+                                  <br>
+                                  <ul>
+                                     <li><h4> ¿Más información? </h4></li>
+                                       <ul>
+
+                                          <li><h6><strong><u>Enlaces que he usado</u></strong></h6></li>
+                                         <p>
+                                           <a href="http://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo" rel="internal">www.w3c.es</a><br/>
+                                            <a href="http://www.htmlhelp.org/es/reference/css/structure.html" rel="internal">www.htmlhelp.org</a><br/>
+                                         
+                                         </p>
+                                          <li><h6><strong><u>Otros</u></strong></h6></li>
+                                         
+                                         <p>
+                                             <a href="http://www.w3schools.com/css/" rel="internal">www.w3schools.com</a><br/>
+                                              <a href="http://juangu.es/lmsgi/tema02_html5/index.html" rel="internal">www.juangu.es</a><br/>
+                                          
+                                         </p>
+                    </ul>
+		         </ul></div>
+		      </aside>
+		      </div>
+    <br/>
+     <br/>
+          <br/>
+               <br/>
+           <p id="QueEsElCSS" ><br/>  <br/>
+
+          </p>
+   
+
+      <div class="container">
+      <div class="row">
+      
+      <div class="col-lg-12 text-center">
+      <h1><strong>1. ¿Qué es el CSS?</strong></h1><br/>
+      </div>
+      </div>
+      <div class="row">
+    <p>
+	
+    Hojas de Estilo en Cascada (Cascading Style Sheets), es un lenguaje
+    de diseño que nos muestra cómo se va a ver un documento en la pantalla, 
+    cómo se va a imprimir, o cómo va a ser pronunciada
+    la información de ese documento a través de un dispositivo 
+    de lectura. Esta forma de descripción de estilos ofrece a los  
+    desarrolladores el control total sobre estilo y formato de sus documentos.
+	
+    </p>
+      </div>
+      </div>
+         <br/>
+              <br/>
+                   <br/>
+          
+      <div class="container">
+        <p id="ParaQueSirveElCSS" ><br/>  <br/>
+
+          </p>
+      <div class="row"> 
+      <div class="col-lg-12 text-center">
+      <h1><strong>2. ¿Para qué sirve el CSS?</strong></h1><br/>
+      </div>
+      </div>
+      <div class="row">  
+     <p>
+	
+     CSS se utiliza para dar estilo a documentos HTML y XML, 
+     separando el contenido de la presentación. Los Estilos definen 
+     la forma de mostrar los elementos HTML y XML. 
+     CSS permite a los desarrolladores Web controlar el estilo y el formato
+     de múltiples páginas Web al mismo tiempo. Cualquier cambio en el estilo 
+     marcado para un elemento en el CSS afectará a todas 
+     las páginas vinculadas a esa CSS en las que aparezca ese elemento.
+	
+     </p>
+      </div>
+      </div>
+         <br/>
+              <br/>
+                   <br/>
+          <p id="SixtaxisReglas" ><br/>  <br/>
+
+          </p>
+      <div class="container">
+      <div class="row"> 
+      <div class="col-lg-12 text-center">
+      <h1><strong>3.  Sintaxis y Reglas básicas del CSS</strong></h1><br/>
+      </div>
+      </div>
+       <div class="row"> 
+		   
+		   <p> 
+			¿Os parece interesante? ¿Quereis saber más sobre CSS?   Bien, a continuación algunas de las principales reglas<br/>
+		    que debeis conocer si quereis introduciros en el uso del CSS. </p> <br/>
+         
+         <ul>
+			  <p id="Sel" ><br/>  <br/>
+
+          </p>
+		  <h3><li><u> Selectores</u></h3></li><br/><br/>
+		    
+		    <p>
+		     Los selectores nos ayudan a definir la parte que se desea cambiar. Cualquier elemento HTML puede ser un selector CSS1.<br/>
+		     El selector es simplemente el elemento que está conectado a un estilo particular. Por ejemplo, el selector en:<br/><br/>
+            </p>
+ 
+               <pre>  P { text-indent: 3em }</pre> <br/>
+             
+            <p> es P.</p> <br/><br/>
+		    </p>
+		     <ul>
+		      <h4><li> Selectores de clase</li></h4><br/>
+		         <p>
+		       
+		        Un selector sencillo puede tener diferentes clases, permitiendo así al mismo elemento tener diferentes estilos.<br/>
+		        Por ejemplo, un autor puede querer mostrar el código en un color diferente dependiendo del idioma:<br/><br/>
+               
+                 </p>
+                  <pre> 
+                        code.html { color: #191970 }
+                        code.css  { color: #4b0082 }
+                  </pre><br/><br/>
+                 
+                 <p> 
+			   
+			    El ejemplo de arriba ha creado dos clases css y html para usar con el elemento CODE de HTML. El atributo <i>CLASS</i> se usa en HTML 
+                para indicar la clase de un elemento, por ejemplo,<br/><br/>
+                
+                 </p>
+                  <pre>  
+		    &#60;p CLASS=advertencia>Solo se permite una clase por selector.
+                     Por ejemplo, code.html.proprietario no es válida.&#60;/p> 
+                  </pre><br/><br/>
+                    
+                 <p>
+				 
+	            Las clases también pueden ser declaradas sin elementos asociados:<br/><br/>
+			    
+			     </p>
+
+               <pre>               .nota { font-size: small }<br/><br/></pre>
+                
+                 <p>
+                
+                En este caso, la clase nota puede usarse con cualquier elemento.<br/><br/>
+
+                Una buena práctica es llamar a las clases de acuerdo a su función y no por su apariencia. La clase .nota del <br/>
+                ejemplo de arriba pudo haber sido llamada pequeña (small), pero este nombre perdería todo significado si el autor decidiera <br/>
+                cambiar el estilo de la clase de tal modo que ya no tuviera una fuente pequeña.
+                 
+			     </p><br/><br/>
+			     
+			     
+		       <h4><li> Selectores ID</li></h4><br/>
+		       
+		      <p>Los selectores ID son asignados individualmente con el propósito de una definición<br/>
+		       en términos 'por elemento'. Este tipo de selector debería ser usado con moderación debido <br/>
+		       a sus inherentes limitaciones. Un selector ID se asigna mediante el uso del indicador "#" para<br/>
+		        preceder un nombre. Por ejemplo, un selector ID podría asignarse así:<br/></p>
+		      
+		      <pre> #svp94O { text-indent: 3em }</pre><br/><br/>
+		      
+		      <p>Esto sería referenciado en HTML por el atributo ID:</p>
+		      
+		      <pre> &#60;P ID=svp94O>Texto con sangría 3em &#60;/P></pre><br/><br/>
+		      
+		      <h4><li> Selectores de contexto</li></h4><br/>
+		      
+		      <p>Los selectores de contexto son simples cadenas de dos o más selectores simples separados por espacio en blanco.<br/>
+		       A estos selectores se les pueden asignar propiedades normales y, debido a las reglas del orden de cascada,<br>
+		        tendrán precedencia sobre selectores simples. Por ejemplo, el selector de contexto en:</p><br/><br/>
+		      
+		      <pre>P EM { background: yellow }</pre><br/><br/>
+		      
+		      <p>es P  EM. Esta regla dice que el texto con énfasis dentro del párrafo debería tener un fondo amarillo;<br/> 
+		      el texto con énfasis en un encabezado no sería afectado.</p><br/><br/>
+		      
+		      </ul>
+		    <p id="Dec" ><br/>  <br/>
+
+          </p>
+		   
+		    <h3><li><u> Declaraciones</u></h3></li><br/><br/>
+		    <ul>
+				<h4><li>Propiedades</li></h4><br/>
+		    <p>
+		    
+             Se asigna una propiedad a un selector a fin de manipular su estilo. Ejemplos de propiedades incluyen color, margin, y font.<br/>	<br/>	    
+		    </p>
+		    
+		         <h4><li>valores</li></h4><br/>
+		     <p>
+		     
+		     El valor de declaración es la asignación que recibe la propiedad. Por ejemplo, la propiedad color podría recibir el valor red (rojo).<br/><br/>
+		     </p>
+		    </ul>
+		     <p id="Agrup" ><br/>  <br/>
+
+          </p>
+		    <h3><li><u> Agrupamiento</u></h3></li><br/><br/>
+		    
+		    <p>
+		    
+		    A fin de disminuir declaraciones repetitivas dentro de hojas de estilo, se permite el agrupamiento
+		    de selectores y declaraciones. Por ejemplo, todos los encabezados en un documento podrían tener 
+		    idénticas declaraciones mediante un agrupamiento:<br/><br/>
+		    
+		    </p>
+		    <pre>
+	  H1, H2, H3, H4, H5, H6 {
+               color: red;
+                font-family: sans-serif }
+		    
+		    </pre><br/><br/>
+		    <p id="Her" ><br/>  <br/>
+
+          </p>
+		    <h3><li><u> Herencia</u></h3></li><br/><br/>
+		    
+		    <p>
+		    
+		    Prácticamente todos los selectores que estén anidados dentro de selectores, heredarán los valores
+		    de propiedades asignados al selector exterior, salvo que se modifiquen de otra manera. 
+		    Por ejemplo, un color definido por BODY también será aplicado al texto en un párrafo.
+		    
+		    </p>
+		    <p>
+		    
+		    Hay algunos casos donde el selector interior no hereda los valores del selector exterior, pero
+		    éstos deberían ser evidentes. Por ejemplo, la propiedad margin-top no es heredada; intuitivamente, 
+		    un párrafo no tendría que tener el mismo margen superior del cuerpo del documento
+		    
+		    </p><br/><br/>
+		     <p id="Com" ><br/>  <br/>
+
+          </p>
+		    <h3><li><u> Comentarios</u></h3></li><br/><br/>
+		    
+		    <p>
+		    
+		     Los comentarios se indican dentro de hojas de estilo con las mismas convenciones usadas en la programación C. Una muestra de comentario CSS1 tendría el siguiente formato:
+		    
+		    </p><br/>
+		    <pre>
+		    
+		       /* LOS COMENTARIOS NO PUEDEN ANIDARSE */
+		    
+		    
+		    </pre><br/><br/>
+		  </ul>  
+        </div>
+      </div>
+        <p id="SCYSE" ><br/>  <br/>
+
+          </p>
+    
+     <div class="container">
+      <div class="row"> 
+      <div class="col-lg-12 text-center">
+      <h1><strong>4. Seudo-Clases y Seudo-Elementos</strong></h1><br/>
+      </div>
+      </div>
+       <div class="row"> 
+       
+         <p>Las seudo-clases y los seudo-elementos son "clases" y "elementos" especiales reconocidos automáticamente
+          por los navegadores que soportan CSS. Las seudo-clases distinguen entre los diferentes tipos de elementos 
+          (por ej., los enlaces visitados y los enlaces activos representan dos tipos de anclas).
+          Los seudo-elementos se refieren a sub partes de elementos, como la primera letra de un párrafo.</p>
+    
+         <p>Las reglas con seudo-clases o seudo-elementos toman la forma</p><br/>
+     
+             <pre> selector:seudo-clase { propiedad: valor } </pre><br/>
+      
+             <pre> selector:seudo-elemento { propiedad: valor }</pre><br/>
+         
+         <p> Las seudo-clases y seudo-elementos no deberían especificarse con el atributo CLASS de HTML.
+          Las clases normales pueden usarse con seudo-clases y seudo-elementos de la siguiente manera: </p><br/>
+      
+             <pre> selector.clase:seudo-clase { propiedad: valor }</pre><br/>
+    
+             <pre> selector.clase:seudo-elemento { propiedad: valor }</pre><br/><br/>
+    
+            <ul> 
+            
+               <h3><li><u> Seudo-clases Ancla (Anchor)</u></h3></li><br/><br/>
+            
+                <p>Las seudo-clases puede asignarse al elemento A para mostrar enlaces, enlaces visitados
+                 y enlaces activos en forma diferente. El elemento ancla puede asignar a la seudo-clase link (enlace),
+                  el estado de visitada, o activa. Un enlace visitado puede definirse para representar un color 
+                  diferente e inclusive un diferente tamaño y estilo de fuente.</p>
+            
+                <p>Un efecto interesante podría ser tener un enlace actualmente seleccionado (o "activo") mostrado en un tamaño
+                 de fuente ligeramente más grande y de un color diferente. Entonces, cuando la página se vuelva a seleccionar,
+                  el enlace visitado podría mostrarse en un tamaño de fuente más pequeño y con un color diferente. 
+                  La hoja de estilo de muestra podría lucir así:</p><br/>
+                
+                
+                <pre>
+		    A:link    { color: red }
+                     A:active  { color: blue; font-size: 125% }
+                     A:visited { color: green; font-size: 85% }
+                     </pre><br/>
+            
+               <h3><li><u> Seudo-clases Ancla (Anchor)</u></h3></li><br/><br/>
+            
+                <p>Con frecuencia, en artículos de periódicos, como los del Wall Street Journal, la primera línea de texto
+                 de un artículo se muestra en negrita y con todas las letras en mayúsculas. CSS1 ha incluido esta capacidad
+                  como un seudo-elemento. Un seudo-elemento first-line puede usarse en cualquier elemento de nivel de bloque
+                   (como P, H1, etc.).<br/> Un ejemplo de un seudo-elemento first-line sería:</p><br/><br/>
+            
+            
+                 <pre>
+		 P:first-line {
+                     font-variant: small-caps;
+                      font-weight: bold }
+                      </pre><br/><br/>
+               
+                <h3><li><u> Seudo-elemento (First letter)</u></h3></li><br/><br/>
+            
+            
+            <p>El seudo-elemento first-letter se emplea para crear letras capitales y otros efectos.
+             La primera letra de texto dentro de un selector asignado se representará de acuerdo al valor 
+             asignado. Un seudo-elemento first-letter puede usarse en cualquier elemento de nivel de bloque.<br/>
+              Por ejemplo:</p><br/><br/>
+              
+              <pre>P:first-letter { font-size: 300%; float: left }</pre><br/>
+            
+            
+            <p>crearía una letra capital tres veces mayor que el tamaño normal de fuente.</p><br/><br/>
+            
+           
+            </ul>
+    
+    
+       </div>
+     </div>
+         <p id="OrdenCascada" ><br/>  <br/>
+
+          </p>
+        <div class="container">
+      <div class="row"> 
+      <div class="col-lg-12 text-center">
+      <h1><strong>5. Orden de Cascada </strong></h1><br/>
+      </div>
+      </div>
+       <div class="row"> 
+		   
+		   
+		   <p>Cuando se usan varias hojas de estilo, puede haber un conflicto sobre cual
+		    controla a un selector en particular. En estas situaciones, debe haber reglas para definir 
+		    la regla de la hoja de estilo que prevalecerá. Las siguientes características determinarán 
+		    el resultado de hojas de estilo que se contraponen.</p>
+		    
+		    <ul><br/> <br/> 
+		       
+		       <h4><li><u> ! important</u></h4></li><br/><br/>
+		       
+		        <p>  Puede establecerse una regla como importante al especificar <strong><i> ! important </i></strong>strong>. Un estilo designado como importante 
+		           prevalecerá sobre estilos contradictorios de similar nivel. Asimismo, ya que tanto el autor y el lector
+		            pueden especificar reglas importantes, la regla del autor primará sobre la regla del lector en casos 
+		            de importancia. Una muestra del uso de la sentencia <strong><i> ! important </i></strong></p> <br/><br/>
+		       
+		       <pre>
+		       BODY { background: url(bar.gif) white;
+                              background-repeat: repeat-x ! important}
+		         </pre><br/> <br/> 
+		       
+		       
+		       <h4><li><u> Origen de las reglas (del autor frente a las del lector)</u></h4></li><br/><br/>
+		        
+		       <p> Como ya se mencionó, tanto los autores como los lectores tienen la capacidad de especificar hojas de estilo.
+		         Cuando hay un conflicto entre reglas, las reglas del autor prevalecerán sobre las reglas del lector de 
+		         similar peso. Tanto las hojas de estilo del autor como las del lector primarán sobre las hojas de estilo 
+		         incorporadas del navegador.</p><br/><br/>
+
+		       
+		      <h4><li><u> Reglas de selector: Calculando especificidad</u></h4></li><br/><br/>
+		       
+		       <p>Las hojas de estilo también pueden primar sobre hojas de estilo en conflicto basándose en su
+		        nivel de especificidad, donde un estilo más específico siempre prevalecerá sobre uno menos específico. 
+		        Simplemente es cuestión de contar para calcular la especificidad de un selector.</p><br/> <br/> 
+		              <ol>
+		                 <li>Cuente el número de atributos ID en el selector.</li>
+		                 <li>Cuente el número de atributos CLASS en el selector.</li>
+		                 <li>Cuente el número nombres de etiquetas HTML en el selector.</li>
+		              </ol><br/> <br/> 
+		       <p>Finalmente, escriba los tres números en orden exacto sin espacios ni comas para obtener un número de tres dígitos.<br/>
+		        (Nota: puede necesitar convertir los números a una base mayor para terminar con tres dígitos.) <br/>
+		        La lista final de números que corresponden a selectores determinará fácilmente la especificidad, 
+		        donde los números más altos priman sobre los más bajos. La siguiente es una lista de selectores ordenados por especificidad:</p><br/> <br/> 
+		    
+		         <pre>
+	       	        #id1         {xxx} /* a=1 b=0 c=0 --> especificidad = 100 */
+                         UL UL LI.red {xxx} /* a=0 b=1 c=3 --> especificidad = 013 */
+                         LI.red       {xxx} /* a=0 b=1 c=1 --> especificidad = 011 */
+                         LI           {xxx} /* a=0 b=0 c=1 --> especificidad = 001 */
+		         
+		         </pre><br/> <br/> 
+		         
+		      <h4><li><u> Orden de especificación</u></h4></li><br/><br/> 
+		         
+		         <p>Para hacerlo sencillo, cuando dos reglas tienen el mismo peso, prima la última regla especificada.</p><br/> 
+		         
+		    </ul><br/> <br/> <br/> 
+		   
+ 
+		   
+		   </div>
+       </div>
+         <p id="Videos" ><br/>  <br/>
+
+          </p>
+     <div class="container">
+		 <h1 align="center"><strong>6. Curso de CSS (Videos) </strong></h1><br/>
+		 <div class="row">
+			<div class="col-lg-12" align="center">
+			<div class="videoResponsivo">	
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL238466B2A9FE0BAD" frameborder="0" allowfullscreen></iframe>
+                      
+                       </div>
+                         </div>
+		 </div>
+	 </div>
+
+ </div>
+</section>
+
+
+    <a class="up" href="#">
+		
+		<img src="img/sub.png" border="0" >
+		
+		</a>
+ 
+    <!-- About Section -->
+
+   
+
+   
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Localización</h3>
+                        <p>Paseo de la Estación, 44, 23008 Jaén
+                            <br>Teléfono: 953 36 69 42</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Página web Instituto</h3>
+                        <ul class="list-inline">
+                            <li>
+                              <a href="https://www.iesvirgendelcarmen.com/" class="btn-soundcloud btn-outline" target="_blank"><i class="fa fa-soundcloud">~ Click aquí para acceder</i></a>                            </li>
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Copyright</h3>
+                        <p>Esta página web no está exenta de copyright, no somos propietarios de los derechos de autor de algunos o todos los elementos que contiene la página.<br/>Toda la información recogida se encuentra en la bibliografía.</p> Si tiene algún tipo de problema al respecto, por favor, contacte con el instituto. <a href="https://www.iesvirgendelcarmen.com/ies/CONTACTO" target="_blank">Contácto</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #233140;"><marquee width="100%" height="130" align="bottom" scrollamount="5" direction="right" style="width: 100%; height: 130px;">
+						<img src="./img/gato.gif" style="float: left; align: center; background-color: #233140;" >
+				</marquee></div>
+				
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright © Your Website 2016 <br/> <br/> - Fernando M Cuadros Hornos</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+				
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+ 
+</body>
+
+</html>
+	

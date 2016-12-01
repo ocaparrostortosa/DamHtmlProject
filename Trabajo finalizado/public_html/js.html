@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	
+<head>
+    <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Tutorial básico de Javascript</title>
+    
+    <link type="image/x-icon" href="img/js.png" rel="icon" />
+    <link type="image/x-icon" href="img/js.png" rel="shortcut icon" /> 
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+
+<body id="pagina-top" class="index">
+    <nav id="navegacionPrincipal" class="navbar navbar-default navbar-fixed-top navbar-custom affix-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    
+                </button>
+                <a class="navbar-brand" href="./index.html#page-top">Grupo 1 HTML</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                     <li class="page-scroll">
+                        <a href="./js.html#indice_javascript">Volver al índice de Javascript</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="./index.html#portfolio">Índice</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="./index.html#sobreNosotros">Sobre nosotros</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="./contacto.html">Contacta con nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header style="color:white; background: url(/img/js.gif); text-shadow: -2px -2px 14px #000;">
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">Tutorial básico de JavaScript</span>
+                        <hr class="star-light">
+                        <span class="skills"><strong>I.E.S. Virgen del Carmen</strong>
+                       <p>(Desarrollo de aplicaciones multiplataforma)</p></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="portfolio2">
+	<div class="container">
+		<div class="container">
+		<div class="row">
+			<article class="col-md-8">
+					<h1 id="indice_javascript"><strong> Índice </strong></h1>
+					<br>
+				<pre>
+					<ol>
+						<h3><li><a href="#Que_es_Javascript" rel="internal"> ¿Qué es Javascript? </a></li></h3>
+						<h3><li><a href="#Diferencias_entre_java_y_javascript" rel="internal"> Diferencias entre Java y Javascript </a></li></h3>
+						<h3><li><a href="#Sintaxis_Javascript" rel="internal"> Sintaxis de Javascript </a></li></h3>
+						<h3><li><a href="#Colocar_scripts" rel="internal"> Colocar scripts </a></li></h3>
+						<h3><li><a href="#variables_Javascript" rel="internal"> Variables en Javascript </a></li></h3>
+						<h3><li><a href="#Estructuras_Control_Javascript" rel="internal"> Estructuras de control en Javascript </a></li></h3>
+						<h3><li><a href="#Video_Javascript" rel="internal"> Vídeo sobre Javascript </a></li></h3> 	
+					</ol>
+				</pre>
+			</article>
+			<aside class="col-md-4">
+				<br>
+                <br>
+				<br>
+                <br>
+                <br>
+				<div class="well">
+					<h3> Más información </h3>
+					<br>
+					<p> Si necesitas más información visita: </p>
+					<link href="./http://www.desarrolloweb.com/articulos/490.php" rel="stylesheet"></link>
+				</div>
+			</aside>
+		</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h1 id="Que_es_Javascript"><strong> 1. ¿Qué es Javascript? </strong></h1>
+				<br>
+				<br>
+			</div>
+			<p>
+				 Javascript es un lenguaje de programación orientado a objetos utilizado para crear pequeños programas encargados de realizar acciones dentro de una página web.
+				 Entre las acciones típicas que se pueden realizar en Javascript encontramos tanto los efectos especiales sobre páginas web, para crear contenidos dinámicos y elementos de la página que tengan movimiento, cambien de color entre otros.
+				 Javascript también nos permite ejecutar instrucciones como respuesta a las acciones del usuario, con lo que podemos crear páginas interactivas con programas como calculadoras, agendas, o tablas de cálculo.
+			</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="col-lg-12 text-center">
+				<h1 id="Diferencias_entre_java_y_javascript"><strong> 2. Diferencias entre Java y Javascript </strong></h1>
+				<br>
+				<br>
+			</div>
+			<p>
+				Algunas diferencias entre estos dos lenguajes son las siguientes:
+					<ul>
+						<br>
+						<li><h4>Compilador: </h4></li> <p> Para programar en Java necesitamos un Kit de desarrollo y un compilador. Sin embargo, Javascript no es un lenguaje que necesite que sus programas se compilen, sino que éstos se interpretan por parte del navegador cuando éste lee la página. </p>
+						<br>
+						<li><h4>Orientado a objetos: </h4></li> <p> Java es un lenguaje de programación orientado a objetos. Javascript no es orientado a objetos, esto quiere decir que podremos programar sin necesidad de crear clases, tal como se realiza en los lenguajes de programación estructurados. </p>
+						<br>
+						<li><h4>Propósito: </h4></li> <p> Java es mucho más potente que Javascript, esto es debido a que Java es un lenguaje de propósito general, con el que se pueden hacer aplicaciones de lo más variado, sin embargo, con Javascript sólo podemos escribir programas para que se ejecuten en páginas web. </p>
+						<br>
+						<li><h4>Estructuras fuertes: </h4></li> <p> Java es un lenguaje de programación fuertemente tipado, esto quiere decir que al declarar una variable tendremos que indicar su tipo y no podrá cambiar de un tipo a otro automáticamente. Por su parte Javascript no tiene esta característica, y podemos meter en una variable la información que deseemos, independientemente del tipo de ésta. Además, podremos cambiar el tipo de información de una varible cuando queramos. </p>
+					</ul>
+			</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="col-lg-12 text-center">
+				<h1 id="Sintaxis_Javascript"><strong> 3. Sintaxis de Javascript </strong></h1>
+				<br>
+				<br>
+			</div>
+			<p>
+				Las reglas más importantes para la escritura de valores fijos son:
+				<br>
+				Los números se pueden escribir con o sin decimales:
+				<br>
+				<br>
+					<pre>					
+						100
+						
+						20.04
+					</pre>
+					<br>
+					<br>
+			</p>
+			<p>
+				Las cadenas son texto escrito tanto con comillas simples o comillas dobles:
+				<br>
+				<br>
+					<pre>
+						"Juan R"
+						
+						'Juan R'
+					</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				Javascript utiliza operadores aritméticos para calcular los valores, como por ejemplo:
+				<br>
+				<br>
+					<pre>
+						5 + 5 // Suma
+						20 - 8 // Resta
+						4 * 8 // Multiplica
+						9 / 3 // Divide				
+					</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				Para imprimir utilizamos " document.write() ", por ejemplo:
+				<br>
+				<br>
+					<pre>
+						document.write(numero)
+					</pre>
+				<br>
+				<br>
+			</p>
+			<br>
+			<div class="col-lg-12 text-center">
+				<h1 id="Colocar_scripts"><strong> 4. Colocar scripts </strong></h1>
+				<br>
+				<br>
+			</div>	
+			<p>
+				La etiqueta script tiene un atributo que sirve para indicar el lenguaje que estamos utilizando, así como la versión de este.
+				<br>
+				<br>
+				<pre>
+						< script Languaje=javascript>
+				</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				Cuando colocamos una etiqueta SCRIPT debemos usar el atributo "type" para indicar que tipo de codificación de script estamos haciendo y el lenguaje utilizado.
+				<br>
+				<br>
+				<pre>
+						< script type="text/javascript">
+				</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				Como incluir ficheros externos de Javascript.
+				<br>
+				<br>
+				<pre>					
+						< script type="text/javascript" src="archivo_externo.js">
+						</ script>				
+				</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				Para incluir comentarios en el texto podemos utilizar los mismos elementos que utilizamos para comentar en java.
+				<br>
+				<br>
+				<pre>
+						// Esta es una forma de incluir comentarios en javascript y solo sirve para comentar en una línea 
+						/* Esta es otra forma de comentar en javascript
+						   y sirve para escribir comentario en varias líneas */
+				</pre>
+				<br>
+				<br>			
+			</p>
+			<br>
+			<div class="col-lg-12 text-center">
+				<h1 id="variables_Javascript"><strong> 5. Variables en Javascript </strong></h1>
+				<br>
+				<br>
+			</div>	
+			<p>
+				Las variables son contenedores para el almacenamiento de valores de datos. Deben declararse dentro de un script. En el ejemplo x e y son variables.
+				<br>
+				<br>
+				<pre>
+					< script>
+						var x = 3; /* De esta forma guardamos un valor en esa variable
+						var y = 6; */
+						var suma = x + y; //En este caso estamos guardando el resultado de la suma de x e y una nueva variable llamada suma
+					</ script>
+				</pre> 
+				<br>
+				<br>
+			</p>
+			<p>
+				Tambien podemos declarar varias variables en la misma sentencia mediante " , ".
+				<br>
+				<br>
+				<pre>
+					var persona = "Juan Nieve", precio = 15;
+				</pre>
+				<br>
+				<br>
+			</p>
+				<br>
+			<p>
+				En las variables podemos guardar:
+				<br>
+				<br>
+					<h3>Números: </h3>
+					<p> Para empezar tenemos el tipo numérico, para guardar números como 9 o 23.6 </p>
+					<br>
+					<h3>Cadenas: </h3>
+					<p> El tipo cadena de carácter guarda un texto. Siempre que escribamos una cadena de caracteres debemos utilizar las comillas ("). </p>
+					<br>
+					<h3>Booleanos: </h3>
+					<p> También contamos con el tipo boleano, que guarda una información que puede valer si (true) o no (false). </p>
+			</p>
+				<br>
+				<br>
+				<br>
+				<br>
+			<div class="col-lg-12 text-center">
+				<h1 id="Estructuras_Control_Javascript"><strong> 6. Estructuras de control en Javascript </strong></h1>
+				<br>
+				<br>
+			</div>	
+			<p>
+				<h3> Estructura If: </h3>
+				<p> Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión. </p>
+				<br>
+					<pre>
+						var numero1=23 
+						var numero2=63 
+						if (numero1 == numero2){ 
+							document.write("Los dos números son iguales") // Si las dos variables tienen el mismo valor guardado, se imprime el mensaje
+						} else{ 
+							 document.write("Los números no son iguales") // si las dos variables no tienen el mismo valor guardado, se imprime el mensaje
+						  }	
+					</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				<h3> Estructura Switch: </h3>
+				<p> Switch nos sirve para tomar decisiones en función de distintos estados de las variables. Esta expresión se utiliza cuando tenemos múltiples posibilidades como resultado de la evaluación de una sentencia. </p>
+				<br>
+					<pre>
+						switch (expresión) { 
+							case valor1: 
+								Se ejecuta una sentencia si la expresión tiene valor1 
+								break // Break hace saltar del switch si la expresión tiene en este caso valor 1
+							case valor2: 
+								Se ejecuta una sentencia si la expresión tiene valor2
+								break // En este caso break hace saltar del switch si la expresión tiene valor 2 
+					</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				<h3> Bucle For: </h3>
+				<p> For se utiliza para repetir una o más instrucciones un determinado número de veces. </p>
+				<br>
+					<pre>
+						for (inicialización (i=0) ; condición (i mayor que 20) ; actualización (i++) { 
+							//sentencias a ejecutar en cada iteración 
+						}
+					</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				<h3> Bucle While: </h3>
+				<p> While se utiliza cuando queremos repetir la ejecución de unas sentencias un número indefinido de veces, siempre que se cumpla una condición. </p>
+				<br>
+					<pre>
+						while (condición){ 
+							//sentencias a ejecutar 
+						}
+					</pre>
+				<br>
+				<br>
+			</p>
+			<p>
+				<h3> Bucle Do While: </h3>
+				<p> Do While se utiliza generalmente cuando no sabemos cuantas veces se habrá de ejecutar el bucle, igual que el bucle While, con la diferencia de que sabemos seguro que el bucle se ejecutará al menos una vez. </p>
+				<br>
+					<pre>
+						do { 
+							//sentencias del bucle 
+						} while (condición)
+					</pre>
+				<br>
+				<br>
+				<br>
+			</p>
+			<h1 id="Video_Javascript" align="center"><strong> 7. Vídeo sobre Javascript </strong></h1>
+			<br>
+			<br>
+			<div class="container">	
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="videoResponsivo">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/XL9Ri8pO68w" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	</section>
+    
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Localización</h3>
+                        <p>Paseo de la Estación, 44, 23008 Jaén
+                            <br>Teléfono: 953 36 69 42</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Página web Instituto</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.iesvirgendelcarmen.com/" class="btn-soundcloud btn-outline" target="_blank"><i class="fa fa-soundcloud">~ Click aquí para acceder</i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Copyright</h3>
+                        
+                        <p>Esta página web no está exenta de copyright, no somos propietarios de los derechos de autor de algunos o todos los elementos que contiene la página.<br/>Toda la información recogida se encuentra en la <a href="#portfolio">bibliografí­a.</a></p> Si tiene algun tipo de problema al respecto, por favor, contacte con el instituto. <a href="https://www.iesvirgendelcarmen.com/ies/CONTACTO" target="_blank">Contácto</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; grupounohtml.esy.es -> Fran BG 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <script src="js/freelancer.min.js"></script>
+
+
+
+
+</body>
+
+</html>

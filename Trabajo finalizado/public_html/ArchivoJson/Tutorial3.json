@@ -1,0 +1,26 @@
+myFunction([
+{
+"display": "HTML5 Tutorial",
+"url": ""
+},
+{
+"display": "CSS Tutorial grupo3",
+"url": "http://www.grupo3dam.esy.es/css/css.html"
+},
+{
+"display": "JavaScript Tutorial",
+"url": "http://www.grupo3dam.esy.es/js/javascript.html"
+},
+{
+"display": "Index",
+"url": "http://www.grupo3dam.esy.es/index.html"
+},
+{
+"display": "Bibliografía",
+"url": "http://www.grupo3dam.esy.es/contacto/contacto.html"
+},
+{
+"display": "Sitio de interés",
+"url": "http://juangualberto.github.io/lmsgi/tema01/objetos_de_datos_clavevalor.html"
+}
+])
